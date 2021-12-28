@@ -1,6 +1,6 @@
 {
-  "name": "eleventy-plugin-sass",
-  "version": "1.0.0",
+  "name": "eleventy-plugin-dart-sass",
+  "version": "1.0.1",
   "description": "A plugin to process Sass for Eleventy",
   "main": ".eleventy.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AramZS/eleventy-plugin-sass.git"
+    "url": "git+https://github.com/AramZS/eleventy-plugin-dart-sass.git"
   },
   "keywords": [
     "11ty",
@@ -20,9 +20,9 @@
   "author": "Aram Zucker-Scharff <aramzs@hacktext.com> (https://aramzs.github.io/aramzs/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/AramZS/eleventy-plugin-sass/issues"
+    "url": "https://github.com/AramZS/eleventy-plugin-dart-sass/issues"
   },
-  "homepage": "https://github.com/AramZS/eleventy-plugin-sass#readme",
+  "homepage": "https://github.com/AramZS/eleventy-plugin-dart-sass#readme",
   "11ty": {
     "compatibility": ">=0.11"
   },

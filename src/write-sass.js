@@ -6,7 +6,7 @@ const handleSassResult = (resultOfRenderSync, domain, filename, outDir) => {
 	let cleanFileName = path.basename(filename, ".sass");
 	cleanFileName = path.basename(cleanFileName, ".scss");
 	cleanFileName = path.basename(cleanFileName, ".css");
-	console.log("Sass renderSync result", result);
+	// console.log("Sass renderSync result", result);
 	var fullCSS = result.css.toString();
 	var map = JSON.parse(result.map);
 	map.sourceRoot = domain;
@@ -27,14 +27,14 @@ const handleSassResult = (resultOfRenderSync, domain, filename, outDir) => {
 		path.join(outDir, `${cleanFileName}.css.map`),
 		fullMap
 	);
-	console.log(
+	/**console.log(
 		"Sass file write result",
 		path.join(outDir, `${cleanFileName}.css`),
 		writeResult,
 		"Sass map write result",
 		path.join(outDir, `${cleanFileName}.css.map`),
 		writeMapResult
-	);
+	);*/
 };
 
 module.exports = { handleSassResult };

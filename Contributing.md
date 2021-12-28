@@ -2,8 +2,7 @@
 
 ## If you wish to submit a PR with changes
 
-- Make sure all tests pass once you have finished incorporating changes by using `npm test`. The test suite [uses `mocha`](https://mochajs.org/).
-- If you are adding functionality it would be highly appreciated if you included test coverage.
+- Please test your PRs.
 
 ## Filing issues
 
