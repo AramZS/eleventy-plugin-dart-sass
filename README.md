@@ -79,11 +79,11 @@ The defaults assume that, after this plugin is added to the project, an Eleventy
 
 You can pass any path into the configuration you'd like. If so, you can free form your project directory structure to work however you'd like.
 
-::: warning
-If you pass your own path into the configuration object for either `outDir` or `sassLocation` or both the plugin won't normalize that path for you.
+##### WARNING
+
+**If you pass your own path into the configuration object for either `outDir` or `sassLocation` or both the plugin won't normalize that path for you.**
 
 **You must pass absolute paths into these option properties**
-:::
 
 ### Domain Name
 
