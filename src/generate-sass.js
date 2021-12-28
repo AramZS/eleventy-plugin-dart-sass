@@ -84,7 +84,7 @@ module.exports = function (eleventyConfig, options = {}) {
 		return cssLink(
 			templateUrl,
 			template
-				? `${pluginConfig.perTemplateFiles}-${template}.css`
+				? `${pluginConfig.perTemplateFiles}${template}.css`
 				: "style.css",
 			cacheBreakString,
 			typeof append !== "string" || append == "undefined" ? "" : append,
