@@ -19,7 +19,7 @@ This is a plugin for [Eleventy](https://www.11ty.dev/) and requires that it also
 In your site's `.eleventy.js` file:
 
 ```js
-eleventyConfig.addPlugin(require("eleventy-plugin-dart-sass", opts)
+eleventyConfig.addPlugin(require("eleventy-plugin-dart-sass"), opts)
 ```
 
 ## Options
